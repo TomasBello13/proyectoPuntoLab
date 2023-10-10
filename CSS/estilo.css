@@ -48,6 +48,19 @@
     display: none;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+     
+}
+
 
 /*BREAKPOINTS*/
 @media (max-width: 1044px) {
