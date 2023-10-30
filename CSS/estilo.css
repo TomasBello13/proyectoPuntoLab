@@ -12,7 +12,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 10%;
+    padding:1rem 10%;
     background: #3B67CE;
     display: flex;
     justify-content: space-between;
@@ -129,7 +129,7 @@
 .title {
     text-align: center;
     font-size: 40px;
-    color: black;
+    color: #101f41;
     margin-top: 150px;
     font-weight: 600;
     
@@ -205,8 +205,8 @@ body {
     font-family: 'Quicksand', sans-serif;
     padding: 0 1.5em;
     margin-top: 150px;
+    background-color: #9DB3E7;
 }
-
 .container {
     max-width: 1170px;
     margin-left: auto;
@@ -314,4 +314,27 @@ ul {
 
 
 /*EQUIPAMIENTO*/
+.brand1 {
+    text-align: center;
+    font-size: 48px;
+    color: #101f41;
+    margin-top: 100px;
+    font-weight: 600;
+    text-decoration: underline;
 
+}
+.brand2 {
+    text-align: center;
+    font-size: 40px;
+    color: #101f41;
+    font-weight: bolder;
+
+}
+
+.brand3 {
+    text-align: left;
+    font-size: 30px;
+    color: #101f41;
+    margin-top: 40px;
+    text-decoration: underline;
+}
