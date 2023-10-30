@@ -203,12 +203,10 @@ body {
     color: #fff;
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
-    padding: 0 1.5em;
+    padding: 10px 100%;
     margin-top: 150px;
     background-color: #9DB3E7;
-    position: relative;
-    padding-bottom: 25em;
-    min-height: 100vh;
+    
 }
 .container {
     max-width: 1170px;
@@ -318,20 +316,29 @@ ul {
 
 /*EQUIPAMIENTO*/
 .titulo-equip {
-    text-align: center;
-    font-size: 48px;
+    font-size: 50px;
     color: #101f41;
-    margin-top: 100px;
+    margin-top: 150px;
     font-weight: 600;
-    text-decoration: underline;
+    text-decoration: none;
+    text-align: center;
+}
 
+.titulo-equip:hover {
+    color: black;
+    text-decoration: underline;
 }
 .titulo-equipa {
-    text-align: center;
     font-size: 40px;
     color: #101f41;
     font-weight: bolder;
+    text-align: center;
 
+}
+
+.titulo-equipa:hover {
+    color: black;
+    text-decoration: underline;
 }
 
 
@@ -350,3 +357,52 @@ footer {
     text-align: center;
     margin-top: 1550px;
 }
+
+.footer-serv {
+    color: #101f41;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*Servicios*/
+
+.titulo-serv {
+    font-size: 50px;
+    color: #101f41;
+    margin-top: 150px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.titulo-serv:hover {
+    color: black;
+}
+
+
+.titulo-servi {
+    font-size: 40px;
+    color: #101f41;
+    font-weight: bolder;
+}
+
+
+.titulo-servi:hover {
+    color: black;
+}
+
+
+
+.parrafo {
+    font-size: 25px;
+    margin-top: 25px;
+    color: #182f62;
+    
+}
+
+.parrafo:hover {
+    background-color: #101f41;
+    color: #fff;
+    transition: 0.3ms ease;
+}
+
