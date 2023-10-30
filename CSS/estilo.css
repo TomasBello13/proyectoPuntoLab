@@ -206,6 +206,9 @@ body {
     padding: 0 1.5em;
     margin-top: 150px;
     background-color: #9DB3E7;
+    position: relative;
+    padding-bottom: 25em;
+    min-height: 100vh;
 }
 .container {
     max-width: 1170px;
@@ -314,7 +317,7 @@ ul {
 
 
 /*EQUIPAMIENTO*/
-.brand1 {
+.titulo-equip {
     text-align: center;
     font-size: 48px;
     color: #101f41;
@@ -323,7 +326,7 @@ ul {
     text-decoration: underline;
 
 }
-.brand2 {
+.titulo-equipa {
     text-align: center;
     font-size: 40px;
     color: #101f41;
@@ -331,10 +334,19 @@ ul {
 
 }
 
-.brand3 {
-    text-align: left;
-    font-size: 30px;
+
+/*Footer*/
+
+footer {
     color: #101f41;
-    margin-top: 40px;
-    text-decoration: underline;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-equip{
+    color: #101f41;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 1550px;
 }
